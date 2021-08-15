@@ -1,0 +1,44 @@
+{
+  "name": "create-bff-service-cli",
+  "version": "1.0.4",
+  "description": "快速搭建一个基于 egg 的,规范的 bff-service",
+  "main": "index.js",
+  "bin": {
+    "create-bff-service": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "bff",
+    "bff-service",
+    "egg",
+    "create-bff-service",
+    "BFF",
+    "bff-cli"
+  ],
+  "author": "koala",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^7.2.0",
+    "esm": "^3.2.25",
+    "execa": "^5.1.1",
+    "inquirer": "^8.0.0",
+    "listr": "^0.14.3",
+    "minimist": "^1.2.5",
+    "ncp": "^2.0.0",
+    "pkg-install": "^1.0.0",
+    "semver": "^7.3.5",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.23.0",
+    "@typescript-eslint/parser": "^4.23.0",
+    "eslint": "^7.9.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2"
+  }
+}

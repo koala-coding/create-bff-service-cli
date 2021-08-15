@@ -1,0 +1,7 @@
+{
+  "demo - hello": "你好",
+  "demo - Hello {0}! My name is {1}.": "你好{0}，我是{1}!",
+  "demo - %s is %s years old.": "%s有%s岁了。",
+  "demo - {v1} and {v2}": "{v1} 和 {v2}",
+  "====请在此行上面添加新值====": ""
+}

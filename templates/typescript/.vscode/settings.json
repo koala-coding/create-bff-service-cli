@@ -1,0 +1,15 @@
+{
+  // 此模式不能使用skipFiles特性，暂时关闭，需要调试其他进程时请在本地打开
+  // "debug.node.autoAttach": "on",
+  "editor.formatOnSave": true,
+  "debug.openDebug": "openOnFirstSessionStart",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.formatOnSave": false
+  }
+}
